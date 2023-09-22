@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: hsl(218, 23%, 16%);
+}
+.advc-bx{
+    height: 330px;
+    width: 540px;
+    background-color: hsl(217, 19%, 24%);
+    position: relative;
+    top: 240px;
+    left: 440px;
+    border-radius: 15px;
+}
+#advc{
+    color:hsl(150, 100%, 66%);
+    position: relative;
+    top: 50px;
+    left: 230px;
+    font-family: "Manrope";
+    word-spacing: 6px;
+}
+#advc-txt{
+    position: relative;
+    top: 70px;
+    left: 110px;
+    margin-right: 190px;
+    color: hsl(193, 38%, 86%);
+    font-family: "Manrope";
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+.img1{
+    position: relative;
+    top: 110px;
+    left: 50px;
+}
+#svg{
+    position: relative;
+    top: 12.5px;
+    left: 13px;
+}
+#neon{
+    position: absolute;
+    top: 305px;
+    left: 247px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%);
+}
+#neon:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px 5px hsl(150, 100%, 66%);
+}
+@media screen and (max-width:435px){
+    html,body{
+        overflow-x: hidden;
+        height: 100%;
+    }
+    .advc-bx{
+        position: relative;
+        top: 40vw;
+        left: 5vw;
+        height: 40%;
+        width: 90%;
+    }
+    #advc{
+        left: 34vw;
+    }
+    .img1{
+        left: 6vw;
+        width:85%;
+    }
+    #neon{
+        left: 39vw;
+        top:80vw;
+    }
+    #advc-txt{
+        left:0vw;
+        margin-right: 0vw;
+    }
+}
+@media screen and (max-width:395px){
+    html,body{
+        overflow-x: hidden;
+        height:100%;
+    }
+    #neon{
+        top:82vw;
+        left:38vw;
+    }
+    .advc-bx{
+        height:50%;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:1024px){
+    html,body{
+        overflow-x: hidden;
+        height: 100%;
+    }
+    .advc-bx{
+        top: 40vw;
+        left: 25vw;
+       
+    }
+}
