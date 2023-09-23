@@ -56,49 +56,40 @@ body{
     cursor: pointer;
     box-shadow: 0 0 10px 5px hsl(150, 100%, 66%);
 }
-@media screen and (max-width:435px){
+@media screen and (min-width:700px) and (max-width:799px){
     html,body{
         overflow-x: hidden;
         height: 100%;
     }
     .advc-bx{
-        position: relative;
         top: 40vw;
-        left: 5vw;
-        height: 40%;
-        width: 90%;
-    }
-    #advc{
-        left: 34vw;
-    }
-    .img1{
-        left: 6vw;
-        width:85%;
-    }
-    #neon{
-        left: 39vw;
-        top:80vw;
-    }
-    #advc-txt{
-        left:0vw;
-        margin-right: 0vw;
+        left: 14.5vw;
+        
     }
 }
-@media screen and (max-width:395px){
+@media screen and (min-width:500px) and (max-width:699px){
     html,body{
         overflow-x: hidden;
-        height:100%;
-    }
-    #neon{
-        top:82vw;
-        left:38vw;
+        height: 100%;
     }
     .advc-bx{
-        height:50%;
+        top: 40vw;
+        left: 5vw;
+        
     }
 }
-
-@media screen and (min-width:500px) and (max-width:1024px){
+@media screen and (min-width:800px) and (max-width:899px){
+    html,body{
+        overflow-x: hidden;
+        height: 100%;
+    }
+    .advc-bx{
+        top: 40vw;
+        left: 17vw;
+        
+    }
+}
+@media screen and (min-width:900px) and (max-width:1024px){
     html,body{
         overflow-x: hidden;
         height: 100%;
@@ -106,6 +97,56 @@ body{
     .advc-bx{
         top: 40vw;
         left: 25vw;
-       
+        
+    }
+}
+@media only screen and (min-width:400px) and (max-width:490px){
+    html,body{
+        overflow-x: hidden;
+        height: 100%;
+    }
+    .advc-bx{
+        top: 30vw;
+        left: 5vw;
+        width: 90%;
+    }
+    #advc{
+        left: 34vw;
+    }
+    #advc-txt{
+        margin-right: 0vw;
+        left:0vw;
+    }
+    .img1{
+        left:7vw;
+        width: 85%;
+    }
+    #neon{
+        left: 37.5vw;
+    }
+}
+@media only screen and (min-width:300px) and (max-width:399px){
+    html,body{
+        overflow-x: hidden;
+        height:100%;
+    }
+    .advc-bx{
+        top: 30vw;
+        left: 5vw;
+        width:90%;
+    }
+    #advc{
+        left: 34vw;
+    }
+    #advc-txt{
+        margin-right: 0vw;
+        left:0vw;
+    }
+    .img1{
+        left:7vw;
+        width: 85%;
+    }
+    #neon{
+        left: 37.5vw;
     }
 }
